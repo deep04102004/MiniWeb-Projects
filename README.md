@@ -39,7 +39,7 @@ Provide reusable examples for future reference or learning
 
 1. Clone the repo
 
-git clone https://github.com/your-username/miniweb-projects.git
+git clone https://github.com/deep04102004/MiniWeb-Projects.git
 
 
 2. Navigate and open any .html file in your browser to explore a project.
