@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #fffaf5;
+     
+}
+
+.navcontainer{
+    width: 100vw;
+    min-height: 60px;
+    background: linear-gradient(to right, #fff4e6, #f9c89b);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+
+ nav{
+    width: 100%;
+ }
+
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+}
+
+#brandname{
+    font-size: 24px ;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    color: #a0522d;
+}
+
+#navbutton{
+    display: flex;
+    gap: 15px;
+}
+
+a{
+    font-size: 16px;
+    color: #5a3e2b;
+    text-decoration: none; 
+    font-family: 'Segoe UI', sans-serif;
+    transition: color 0.3s ease;   
+}
+
+a:hover{
+    color:#d2691e;
+}
+
+.footerbox{
+    background: linear-gradient(to right, #f9c89b, #fff4e6);
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e0d6cc;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.footerbox p{
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5a3e2b; 
+}
+main{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.contentbox{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    /* border: 5px solid #a0522d; */
+    box-shadow: 0px 0px 30px #a0522d;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.item1,.item2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightbox img{
+    max-width: 200px;
+    height:300px;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-top:-150px;
+    box-shadow: 0px 0px 30px  #a0522d ;
+    transition: all 0.6s linear 0s;
+    
+}
+ 
+.item1 img{
+    margin-top:-350px;
+}
+
+
+.rightbox img:hover{
+    transform: scale(1.1 );
+}
+
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 25px ;
+}
+
+.leftbox h1,.leftbox h2{
+    color:#8B4513;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.leftbox h2{
+    font-size: 18px;
+}
+
+.leftbox h1{
+    font-size: 30px;
+
+}
+
+.leftbox ul,.leftbox ol {
+    color:#3b2f2f;
+    font-family: 'Segoe UI', sans-serif;
+}
