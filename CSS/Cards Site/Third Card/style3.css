@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+
+    background: #667db6;  
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 50%;
+    height: 55%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbox{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(82, 2, 82);
+    display: flex;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+.leftbox h1{
+    padding: 40px 40px 0px 40px;
+    font-size: 28px;
+    text-align: left;
+}
+
+.leftbox p{
+    padding: 0px 40px 0px 40px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.rightbox{
+    width:50%;
+    height: 100%;
+    background-image: url(busi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.statbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.stats p{
+    font-size: 12px;
+}
+
+.stats h1{
+    font-size:24px ;
+}

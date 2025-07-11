@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 360px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.card img{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+
+.card h1{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p{
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    color:rgb(0, 0, 0);
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#amountbox{
+    width:78%;
+    height: 10%;
+    background-color:#00C9A7 ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+#paymentbutton{
+    width: 75%;
+    height: 9%;
+    border: 0;
+    background-color: #10B981;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: large;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.cancelbox a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-weight: bold;
+    font-size: large;
+}
+
+.leftbox{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgbox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.imgbox img{
+    height: 100%;
+    width: 100%;
+}
+
+.textbox{
+    height: 100%;
+    width: 80%;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox p{
+    color: black;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.rightbox{
+      height: 100%;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 70px;
+}
+
+@media(max-width:360px){
+   #amountbox{
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+   }
+
+   .leftbox{
+    flex-direction: column;
+    height: auto;
+   }
+}
