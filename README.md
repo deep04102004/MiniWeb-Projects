@@ -7,15 +7,15 @@ A curated collection of small, focused web development projects using core techn
 Organized by technology. Each folder contains one or more mini-projects or demos:
 
       miniweb-projects/
-├── css/
-│   ├── Cards-Site/
-|   └── Recipe-Site/                    
-├── html/
-│   ├── Media-project/
-│   ├── Resume/
-│   ├── Simple-Form/
-│   └── Table/
-├── README.md
+      ├── css/
+      │   ├── Cards-Site/
+      |   └── Recipe-Site/                    
+      ├── html/
+      │   ├── Media-project/
+      │   ├── Resume/
+      │   ├── Simple-Form/
+      │   └── Table/
+      ├── README.md
 
 
 🚀 Technologies Used
