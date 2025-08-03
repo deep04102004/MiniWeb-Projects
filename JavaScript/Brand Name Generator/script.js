@@ -24,5 +24,7 @@ function getbrandname(){
 
     let brandname = `${ad} ${sh} ${aw}`;
 
-    document.getElementById("result").textContent = brandname;
+    const resultbox = document.getElementById("result");
+    resultbox.textContent = brandname;
+    resultbox.style.display = "block";
 }
